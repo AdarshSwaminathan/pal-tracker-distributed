@@ -8,7 +8,6 @@ import java.util.TimeZone;
 
 
 @SpringBootApplication
-@EnableEurekaClient
 @ComponentScan({
     "io.pivotal.pal.tracker.accounts",
     "io.pivotal.pal.tracker.restsupport",
